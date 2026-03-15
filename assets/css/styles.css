@@ -3063,19 +3063,19 @@ textarea.form-control-lg {
 }
 .btn-success:hover {
   color: #212529;
-  background-color: #157347;
-  border-color: #146c43;
+  background-color: #5c636a;
+  border-color: #565e64;
 }
 .btn-check:focus + .btn-success, .btn-success:focus {
   color: #212529;
-  background-color: #157347;
-  border-color: #146c43;
+  background-color: #5c636a;
+  border-color: #565e64;
   box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
 }
 .btn-check:checked + .btn-success, .btn-check:active + .btn-success, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
   color: #212529;
-  background-color: #146c43;
-  border-color: #13653f;
+  background-color: #5c636a;
+  border-color: #565e64;
 }
 .btn-check:checked + .btn-success:focus, .btn-check:active + .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus, .show > .btn-success.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);

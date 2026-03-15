@@ -4662,7 +4662,7 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   color: #212529;
-  background-color: #f5e90c;
+  background-color: #fff;
   border: 1px solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }

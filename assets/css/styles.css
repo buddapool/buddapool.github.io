@@ -3058,8 +3058,8 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #212529;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #5c636a;
+  border-color: #565e64;
 }
 .btn-success:hover {
   color: #212529;
@@ -3082,8 +3082,8 @@ textarea.form-control-lg {
 }
 .btn-success:disabled, .btn-success.disabled {
   color: #212529;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #5c636a;
+  border-color: #565e64;
 }
 
 .btn-info {

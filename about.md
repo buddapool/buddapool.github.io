@@ -4,7 +4,8 @@ title: About
 subheading: This is what I do
 permalink: /about/
 ---
-###About Pool
+
+### About Pool
 Pool name: Buddhism, Meditation & Mental Health
 Ticker: BUDDA 
 Pool ID: pool1p8yn95k4wgznc38ezckler84ufc6kxemmsvptv74r3g4zkxj24q
@@ -12,12 +13,14 @@ Pool Hash: 09c932d2d572053c44f9162dfc8cf5e271ab1b3bdc1815b3d51c5151
 Fix Fee: 170 ADA (Sharing among top 100 Delegators as Extra Rewards)
 Margin Fee: 0%
 
-### Hardware infos
+
+### Hardware infomations
 On each node:
 - Processor: 3 GHz (x6 cores)
 - Memory: 32+ GB
 - Storage: SSD 500 GB
 All nodes run 24/7/365.
+
 
 ### About me
 I'm an Vietnamese entrepreneur, born in a Confucist family. After suffering generalized anxiety and depression disorder, incidentally I learned about Theravada Buddhism, I realized more truth about our thought and also calmed myself with practicing meditation then step by step improve my mental health conditions.

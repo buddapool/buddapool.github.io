@@ -16,7 +16,7 @@ permalink: /about/
 
 ------------------------------
 ### Hardware informations
-# On each node:
+#### On each node:
 - Processor: 3 GHz (x6 cores)
 - Memory: 32+ GB
 - Storage: SSD 500 GB

@@ -20,7 +20,7 @@ permalink: /about/
 - Processor: 3 GHz (x6 cores)
 - Memory: 32+ GB
 - Storage: SSD 500 GB
-- All nodes run 24/7/365
+#### All nodes run 24/7/365
 
 ------------------------------
 ### About me

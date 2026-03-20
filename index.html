@@ -16,7 +16,7 @@ layout: default
 </ul>
 
 <!-- Post preview -->
-<!--
+
  {% for post in paginator.posts %}
   <!-- Divider -->
     <hr class="my-4" />
@@ -30,14 +30,14 @@ layout: default
      <p class="post-subtitle">{{ post.excerpt }}</p>
     <!--<a href="{{ post.url | relative_url  }}">Read More</a> -->
 
-  </div>
+  </div> -->
 
 
 
 {% endfor %}
 
 <!-- Pagination links  -->
-<div class="pagination d-flex justify-content-end mb-4">
+ <div class="pagination d-flex justify-content-end mb-4">
   {% if paginator.previous_page %}
        <a href="{{ paginator.previous_page_path }}" class="previous btn btn-primary text-uppercase">
          Previous
@@ -54,7 +54,6 @@ layout: default
           <span class="next btn btn-primary text-uppercase">Next</span>
      {% endif %}
 </div> 
--->
 
 
 <!-- Pagination code snipplet version 2 

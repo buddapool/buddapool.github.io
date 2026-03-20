@@ -6,7 +6,6 @@ permalink: /about/
 ---
 
 ### About Pool
-
 - Pool name: Buddhism, Meditation & Mental Health
 - Ticker: BUDDA
 - Pool ID: pool1p8yn95k4wgznc38ezckler84ufc6kxemmsvptv74r3g4zkxj24q
@@ -16,15 +15,13 @@ permalink: /about/
 
 ------------------------------
 ### Hardware informations
-#### On each node:
+#### All nodes run 24/7/365, each node has:
 - Processor: 3 GHz (x6 cores)
 - Memory: 32+ GB
 - Storage: SSD 500 GB
-#### All nodes run 24/7/365
 
 ------------------------------
 ### About me
-
 - I'm an Vietnamese entrepreneur, born in a Confucist family. After suffering generalized anxiety and depression disorder, incidentally I learned about Theravada Buddhism, I realized more truth about our thought and also calmed myself with practicing meditation then step by step improve my mental health conditions.
 Therefore I've believed in original Buddha's teaching, philosophy and practices.
 - Later, on Sep 2022, I built this pool and become a Single Stake Pool Operator (SSPO) to contribute to blockchain stability, scalability and decentralization, also has some income to support my belief.

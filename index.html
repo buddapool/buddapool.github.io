@@ -9,6 +9,7 @@ layout: default
 
 {% for post in paginator.posts %}
   <!-- Divider -->
+    <hr class="my-4" />
   <div class="post-preview">
           
     <span class="date">{{ post.date | date_to_string }}</span>
@@ -16,12 +17,12 @@ layout: default
       <h2 class="post-title">{{ post.title }}</h2>      
     </a>
 
-    <p class="post-subtitle">{{ post.excerpt }}</p>
-    <a href="{{ post.url | relative_url  }}">Read More</a>
+    <!-- <p class="post-subtitle">{{ post.excerpt }}</p>
+    <a href="{{ post.url | relative_url  }}">Read More</a> -->
 
   </div>
 
-  <hr class="my-4" />
+
 
 {% endfor %}
 

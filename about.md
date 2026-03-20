@@ -7,7 +7,7 @@ permalink: /about/
 
 ### About Pool
 Pool name: Buddhism, Meditation & Mental Health
-Ticker: BUDDA 
+Ticker: BUDDA
 Pool ID: pool1p8yn95k4wgznc38ezckler84ufc6kxemmsvptv74r3g4zkxj24q
 Pool Hash: 09c932d2d572053c44f9162dfc8cf5e271ab1b3bdc1815b3d51c5151
 Fix Fee: 170 ADA (Sharing among top 100 Delegators as Extra Rewards)

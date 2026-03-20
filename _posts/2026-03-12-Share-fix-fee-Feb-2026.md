@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Notification
-permalink: /Share-fix-fee-February-2026/
+permalink: /Share-fix-fee-of-Feb-2026/
 ---
 
 Sharing Extra Rewards (Fix Fee Rewards or Epoch Fee Rewards) from Pool's Operator of Epoch has block in February 2026 has been completed. <br>

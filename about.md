@@ -17,18 +17,18 @@ permalink: /about/
 
 ### Hardware informations
 
- On each node:
+* On each node:
 - Processor: 3 GHz (x6 cores)
 - Memory: 32+ GB
 - Storage: SSD 500 GB
- All nodes run 24/7/365.
+* All nodes run 24/7/365.
 
 
 ### About me
 
- I'm an Vietnamese entrepreneur, born in a Confucist family. After suffering generalized anxiety and depression disorder, incidentally I learned about Theravada Buddhism, I realized more truth about our thought and also calmed myself with practicing meditation then step by step improve my mental health conditions.
+- I'm an Vietnamese entrepreneur, born in a Confucist family. After suffering generalized anxiety and depression disorder, incidentally I learned about Theravada Buddhism, I realized more truth about our thought and also calmed myself with practicing meditation then step by step improve my mental health conditions.
 Therefore I've believed in original Buddha's teaching, philosophy and practices.
- Later, on Sep 2022, I built this pool and become a Single Stake Pool Operator (SSPO) to contribute to blockchain stability, scalability and decentralization, also has some income to support my belief.
+- Later, on Sep 2022, I built this pool and become a Single Stake Pool Operator (SSPO) to contribute to blockchain stability, scalability and decentralization, also has some income to support my belief.
 Operator's rewards will be used for support Buddhism activities such as providing food for poor people, maintaining temples, printing books, teaching Buddha Dhamma and practicing meditation or any activities that improve people's mental health.
 
 

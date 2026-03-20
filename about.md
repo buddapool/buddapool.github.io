@@ -14,16 +14,15 @@ permalink: /about/
 - Fix Fee: 170 ADA (Sharing among top 100 Delegators as Extra Rewards)
 - Margin Fee: 0%
 
-
+------------------------------
 ### Hardware informations
-
-* On each node:
+### On each node:
 - Processor: 3 GHz (x6 cores)
 - Memory: 32+ GB
 - Storage: SSD 500 GB
-* All nodes run 24/7/365.
+- All nodes run 24/7/365
 
-
+------------------------------
 ### About me
 
 - I'm an Vietnamese entrepreneur, born in a Confucist family. After suffering generalized anxiety and depression disorder, incidentally I learned about Theravada Buddhism, I realized more truth about our thought and also calmed myself with practicing meditation then step by step improve my mental health conditions.

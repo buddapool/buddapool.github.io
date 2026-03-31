@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Notification
+category: sharefixfee
 permalink: /Share-fix-fee-of-Dec-2026/
 ---
 

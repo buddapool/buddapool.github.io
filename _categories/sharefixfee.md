@@ -1,6 +1,6 @@
 ---
 short_name: sharefixfee
-name: Share Fix Fee Program
+name: Extra Rewards Program
 open_source: Must Read
 title: Project
 subheading: This is what I contributed

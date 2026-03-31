@@ -1,5 +1,5 @@
 ---
-short_name: Share Fix Fee
+short_name: sharefixfee
 name: Share Fix Fee Program
 open_source: Must Read
 title: Project

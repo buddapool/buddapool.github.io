@@ -27,4 +27,4 @@ Therefore I've believed in original Buddha's teaching, philosophy and practices.
 - Later, on Sep 2022, I built this pool and become a Single Stake Pool Operator (SSPO) to contribute to blockchain stability, scalability and decentralization, also has some income to support my belief.
 Operator's rewards will be used for support Buddhism activities such as providing food for poor people, maintaining temples, printing books, teaching Buddha Dhamma and practicing meditation or any activities that improve people's mental health.
 
-<a class="navbar-brand" href="/"><img src="assets/images/logo.png"></img></a>
+<a class="navbar-brand" href="/"><img src="assets/images/logo.png"/></a>

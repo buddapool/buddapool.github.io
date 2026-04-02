@@ -11,6 +11,6 @@ layout: about
 <ul>
   {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
   {% for post in filtered_posts %}
-       <a href="{{ post.url }}">{{ post.title }}</a>
+      <li> <a href="{{ post.url }}">{{ post.title }}</a> </li>
   {% endfor %}
 </ul>

@@ -11,6 +11,38 @@ layout: about
 <ul>
   {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
   {% for post in filtered_posts %}
-      <li> <a href="{{ post.url }}">{{ post.title }}</a> </li>
+      <!--<li> <a href="{{ post.url }}">{{ post.title }}</a> </li> -->
+	  <!-- Divider -->
+    <hr class="my-4" />
+  <div class="post-preview">
+          
+    <span class="date">{{ post.date | date_to_string }}</span>
+    <a href="{{ post.url | relative_url }}">
+      <h2 class="post-title">{{ post.title }}</h2>      
+    </a>
+
+     <p class="post-subtitle">{{ post.excerpt }}</p>
+    <!--<a href="{{ post.url | relative_url  }}">Read More</a> -->
+
+  </div>
   {% endfor %}
+  
+  <!-- Pagination links  -->
+ <div class="pagination d-flex justify-content-end mb-4">
+  {% if paginator.previous_page %}
+       <a href="{{ paginator.previous_page_path }}" class="previous btn btn-primary text-uppercase">
+         Previous
+       </a>
+     {% else %}
+       <span class="previous btn btn-primary text-uppercase">Previous</span>
+     {% endif %}
+     <span class="page_number btn btn-primary text-uppercase">
+       Page: {{ paginator.page }} of {{ paginator.total_pages }}
+     </span>
+     {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next btn btn-primary text-uppercase">Next</a>
+     {% else %}
+          <span class="next btn btn-primary text-uppercase">Next</span>
+     {% endif %}
+</div> 
 </ul>

@@ -11,6 +11,7 @@ layout: default
 <ul>
   {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
   {% for post in filtered_posts %}
+   {% for post in paginator.posts %}
        <!-- <li> <a href="{{ post.url }}">{{ post.title }}</a> </li> -->
 	 	  <!-- Divider -->
     <hr class="my-4" />
@@ -25,8 +26,10 @@ layout: default
     <!--<a href="{{ post.url | relative_url  }}">Read More</a> -->
 
   </div>
-  
-    <!-- Pagination links  -->
+  {% endfor %}
+
+  {% endfor %}
+      <!-- Pagination links  -->
  <div class="pagination d-flex justify-content-end mb-4">
   {% if paginator.previous_page %}
        <a href="{{ paginator.previous_page_path }}" class="previous btn btn-primary text-uppercase">
@@ -44,6 +47,5 @@ layout: default
           <span class="next btn btn-primary text-uppercase">Next</span>
      {% endif %}
 </div> 
-  {% endfor %}
  
 </ul>

@@ -1,50 +1,180 @@
 ---
-layout: default
----
+# {{ page.name }}
 
-<h1>{{ page.name }}</h1>
-<h2>{{ page.open_source }}</h2>
+## {{ page.open_source | markdownify }}
 
-{{ content }}
+<!-- Filter controls -->
+<div class="category-filters mb-4">
+  <label for="search">🔎 Search posts:</label>
+  <input type="text" id="search" placeholder="Type to filter..." onkeyup="filterPosts()">
+  
+  <label for="tag-filter" class="ms-3">Filter by tag:</label>
+  <select id="tag-filter" onchange="filterPosts()">
+    <option value="">All tags</option>
+    <!-- Tags will be populated by JS -->
+  </select>
+</div>
 
-<h2>Related Posts:</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
-  {% for post in filtered_posts %}
-   {% for post in paginator.posts %}
-       <!-- <li> <a href="{{ post.url }}">{{ post.title }}</a> </li> -->
-	 	  <!-- Divider -->
-    <hr class="my-4" />
-  <div class="post-preview">
-          
-    <span class="date">{{ post.date | date_to_string }}</span>
-    <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title }}</h2>      
-    </a>
+<!-- Posts container -->
+<div id="posts-container">
+  {% assign category_posts = site.posts | where: 'category', page.short_name | sort: 'date' | reverse %}
 
-     <p class="post-subtitle">{{ post.excerpt }}</p>
-    <!--<a href="{{ post.url | relative_url  }}">Read More</a> -->
-
-  </div>
-	{% endfor %}
+  {% for post in category_posts %}
+    <div class="post-item" data-tags="{{ post.tags | join: ',' }}">
+      <p class="post-date">{{ post.date | date_to_string }}</p>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <small>Tags: {{ post.tags | join: ', ' }}</small>
+    </div>
   {% endfor %}
-      <!-- Pagination links  -->
- <div class="pagination d-flex justify-content-end mb-4">
-  {% if paginator.previous_page %}
-       <a href="{{ paginator.previous_page_path }}" class="previous btn btn-primary text-uppercase">
-         Previous
-       </a>
-     {% else %}
-       <span class="previous btn btn-primary text-uppercase">Previous</span>
-     {% endif %}
-     <span class="page_number btn btn-primary text-uppercase">
-       Page: {{ paginator.page }} of {{ paginator.total_pages }}
-     </span>
-     {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next btn btn-primary text-uppercase">Next</a>
-     {% else %}
-          <span class="next btn btn-primary text-uppercase">Next</span>
-     {% endif %}
-</div> 
- 
-</ul>
+</div>
+
+<!-- Pagination controls -->
+<div id="pagination" class="pagination mt-4"></div>
+
+<script>
+// Simple client-side filter + pagination (works perfectly on GitHub Pages)
+const postsPerPage = 6; // change as needed
+let currentPage = 1;
+let allPosts = [];
+
+function getAllPosts() {
+  return Array.from(document.querySelectorAll('.post-item'));
+}
+
+function populateTagFilter() {
+  const tags = new Set();
+  getAllPosts().forEach(post => {
+    const postTags = post.getAttribute('data-tags').split(',').map(t => t.trim());
+    postTags.forEach(tag => {
+      if (tag) tags.add(tag);
+    });
+  });
+  
+  const select = document.getElementById('tag-filter');
+  Array.from(tags).sort().forEach(tag => {
+    const option = document.createElement('option');
+    option.value = tag;
+    option.textContent = tag;
+    select.appendChild(option);
+  });
+}
+
+function filterPosts() {
+  const searchTerm = document.getElementById('search').value.toLowerCase().trim();
+  const selectedTag = document.getElementById('tag-filter').value;
+  
+  const filtered = getAllPosts().filter(post => {
+    const title = post.querySelector('h3').textContent.toLowerCase();
+    const excerpt = post.querySelector('p:last-of-type').textContent.toLowerCase();
+    const matchesSearch = !searchTerm || 
+                         title.includes(searchTerm) || 
+                         excerpt.includes(searchTerm);
+    
+    const postTags = post.getAttribute('data-tags').split(',').map(t => t.trim());
+    const matchesTag = !selectedTag || postTags.includes(selectedTag);
+    
+    return matchesSearch && matchesTag;
+  });
+  
+  allPosts = filtered;
+  currentPage = 1;
+  renderPagination();
+  showPage(1);
+}
+
+function showPage(page) {
+  const container = document.getElementById('posts-container');
+  const start = (page - 1) * postsPerPage;
+  const end = start + postsPerPage;
+  
+  // Hide all posts first
+  getAllPosts().forEach(p => p.style.display = 'none');
+  
+  // Show only current page
+  allPosts.slice(start, end).forEach(p => {
+    p.style.display = 'block';
+  });
+}
+
+function renderPagination() {
+  const totalPages = Math.ceil(allPosts.length / postsPerPage);
+  const pagination = document.getElementById('pagination');
+  
+  if (totalPages <= 1) {
+    pagination.innerHTML = '';
+    return;
+  }
+  
+  let html = `<nav aria-label="Page navigation"><ul class="pagination justify-content-center">`;
+  
+  // Previous
+  html += `<li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+           <a class="page-link" href="#" onclick="prevPage(event)">Previous</a></li>`;
+  
+  // Page numbers
+  for (let i = 1; i <= totalPages; i++) {
+    if (i === currentPage) {
+      html += `<li class="page-item active"><span class="page-link">${i}</span></li>`;
+    } else {
+      html += `<li class="page-item"><a class="page-link" href="#" onclick="goToPage(${i}, event)">${i}</a></li>`;
+    }
+  }
+  
+  // Next
+  html += `<li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+           <a class="page-link" href="#" onclick="nextPage(event)">Next</a></li>`;
+  
+  html += `</ul></nav>`;
+  pagination.innerHTML = html;
+}
+
+function prevPage(e) {
+  e.preventDefault();
+  if (currentPage > 1) {
+    currentPage--;
+    showPage(currentPage);
+    renderPagination();
+  }
+}
+
+function nextPage(e) {
+  e.preventDefault();
+  const totalPages = Math.ceil(allPosts.length / postsPerPage);
+  if (currentPage < totalPages) {
+    currentPage++;
+    showPage(currentPage);
+    renderPagination();
+  }
+}
+
+function goToPage(page, e) {
+  e.preventDefault();
+  currentPage = page;
+  showPage(currentPage);
+  renderPagination();
+}
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', () => {
+  allPosts = getAllPosts();
+  populateTagFilter();
+  renderPagination();
+  showPage(1);
+});
+</script>
+
+<style>
+.post-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+</style>

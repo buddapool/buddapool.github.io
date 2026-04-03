@@ -9,7 +9,6 @@ layout: default
 
 <h2>Related Posts:</h2>
 <ul>
-{% for post in paginator.posts %}
   {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
   {% for post in filtered_posts %}
    
@@ -27,7 +26,6 @@ layout: default
     <!--<a href="{{ post.url | relative_url  }}">Read More</a> -->
 
   </div>
-  {% endfor %}
 
   {% endfor %}
       <!-- Pagination links  -->

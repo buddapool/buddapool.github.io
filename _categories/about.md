@@ -1,9 +1,9 @@
 ---
 short_name: about
 name: About
-title: About
+title: 
 open_source: Who am I, What I do
-subheading: Who am I, What I do
+subheading: 
 permalink: /about/
 ---
 

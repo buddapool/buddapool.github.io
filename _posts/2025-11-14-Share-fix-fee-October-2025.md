@@ -1,7 +1,7 @@
 ---
 layout: post
 category: sharefixfee
-permalink: /Share-fix-fee-of-Oct-2025/
+permalink: /Extrarewards/Share-fix-fee-of-Oct-2025/
 ---
 
 Sharing Extra Rewards (Fix Fee Rewards or Epoch Fee Rewards) from Pool's Operator of Epoch has block in October 2025 has been completed. <br>

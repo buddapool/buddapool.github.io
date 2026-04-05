@@ -29,7 +29,7 @@ Recent Posts</h2>
           
     <span class="date">{{ post.date | date_to_string }}</span>
     <a href="{{ post.url | relative_url }}">
-      <h5 class="post-title">{{ post.title }}</h5>      
+      <h2 class="post-title">{{ post.title }}</h2>      
     </a>
      <p class="post-subtitle">{{ post.excerpt }}</p>
     <!--<a href="{{ post.url | relative_url  }}">Read More</a> -->
@@ -57,16 +57,16 @@ Recent Posts</h2>
      {% endif %}
 </div> 
 
-<button class="button button1" 
+<!--<button class="button button1" 
         style="background-color: #0d6efd; color: #ffffff;">
     <a href="https://cexplorer.io/pool/pool1p8yn95k4wgznc38ezckler84ufc6kxemmsvptv74r3g4zkxj24q" 
        style="color: #ffffff; text-decoration: none;">
         Delegate to BUDDA
     </a>
-</button>
+</button> -->
 
 
-<a href="https://cexplorer.io/pool/pool1p8yn95k4wgznc38ezckler84ufc6kxemmsvptv74r3g4zkxj24q" class="button button3">Delegate to BUDDA</a>
+<!-- <a href="https://cexplorer.io/pool/pool1p8yn95k4wgznc38ezckler84ufc6kxemmsvptv74r3g4zkxj24q" class="button button3">Delegate to BUDDA</a> -->
 
 <!-- Pagination code snipplet version 2 
 {% if paginator.total_pages > 1 %}

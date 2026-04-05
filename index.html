@@ -22,6 +22,7 @@ layout: default
 <h2>&nbsp;&nbsp;<br>
 Recent Posts</h2>
 <!-- Post preview -->
+<li>
  {% for post in paginator.posts %}
   <!-- Divider -->
     <hr class="my-4" />
@@ -38,6 +39,7 @@ Recent Posts</h2>
   </div>
 
 {% endfor %}
+</li>
 
 <!-- Pagination links  -->
  <div class="pagination d-flex justify-content-end mb-4">

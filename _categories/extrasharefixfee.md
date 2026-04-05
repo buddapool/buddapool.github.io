@@ -1,10 +1,10 @@
 ---
-short_name: sharefixfee
+short_name: extrarewards
 name: Extra Rewards Program
 open_source: Extra Rewards to my Delegators - Must Read
 title: Project
 subheading: This is what I contributed
-permalink: /sharingfixfee/
+permalink: /extra-rewards-program/
 ---
 Since Epoch 435, All 340 ADA Fix Fee (Epoch Fee) Rewards of Operator will be shared manually among top 10 Delegators whose Active Stake have more than 1000 ADA as Extra Rewards. The sharing activity will implement in the first Epoch of each month and I will share directly to your wallets. More calculating details <a href="https://docs.google.com/spreadsheets/d/129wxY5S6XcCMshDE9vr2elCk-SlCkDMJ/edit?usp=sharing&ouid=111440100719058866069&rtpof=true&sd=true" target="_blank">here</a>.<br>
 

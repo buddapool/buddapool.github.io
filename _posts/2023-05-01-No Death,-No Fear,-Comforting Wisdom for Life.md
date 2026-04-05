@@ -1,7 +1,7 @@
 ---
 layout: post
 category: buddhism
-permalink: /No Death, No Fear: Comforting Wisdom for Life/
+permalink: /no-death-no-fear-comforting-wisdom-for-life/
 ---
 No Death, No Fear: Comforting Wisdom for Life is a great book written by Thich Nhat Hanh teach me how  to uderstand life, think and feel peace insight. This might help you too.
 

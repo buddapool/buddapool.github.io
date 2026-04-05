@@ -1,7 +1,7 @@
 ---
-layout: about
+short_name: about
 title: About
-subheading: This is what I do
+subheading: Who am I, What I do
 permalink: /about/
 ---
 

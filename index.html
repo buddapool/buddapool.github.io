@@ -5,14 +5,14 @@ layout: default
 <h1>Namo Tassa Bhagavato Arahato Sammā Sambudhassa<br>
 &nbsp;&nbsp;<br></h1>
 
-<h5>Hello visitor, this is the page of Buddhism, Meditation & Mental Health cardano staking pool. Feel free to explorer my site.<br>
-&nbsp;&nbsp;<br></h5>
+<h4>Hello visitor, this is the page of Buddhism, Meditation & Mental Health cardano staking pool. Feel free to explore.<br>
+&nbsp;&nbsp;<br></h4>
 
 <ul>
   {% for category in site.categories %}
        <li>
-         <h2><a href="{{ category.url }}">{{ category.name }}</a></h2>
-         <h3>{{ category.open_source }}</h3>
+         <h3><a href="{{ category.url }}">{{ category.name }}</a></h3>
+         <h4>{{ category.open_source }}</h4>
          <!--<p>{{ category.content | markdownify }}</p> -->
 		 <!--<p class="category-subtitle">{{ category.excerpt }}</p> -->
        </li>
@@ -29,7 +29,7 @@ Recent Posts</h2>
           
     <span class="date">{{ post.date | date_to_string }}</span>
     <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title }}</h2>      
+      <h3 class="post-title">{{ post.title }}</h3>      
     </a>
 
      <p class="post-subtitle">{{ post.excerpt }}</p>

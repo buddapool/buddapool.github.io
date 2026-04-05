@@ -1,6 +1,6 @@
 ---
 short_name: about
-name: About
+name: ABOUT
 title: 
 open_source: Who am I, What I do
 subheading: 

@@ -1,5 +1,5 @@
 ---
-short_name: 4
+short_name: jekyll
 name: Jekyll Ruby
 open_source: Static Website Tool
 title: Project

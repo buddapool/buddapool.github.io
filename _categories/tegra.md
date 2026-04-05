@@ -1,5 +1,5 @@
 ---
-short_name: 3
+short_name: tegra
 name: Nvidia Tegra 
 open_source: Grate
 title: Project

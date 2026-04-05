@@ -1,5 +1,5 @@
 ---
-short_name: 1
+short_name: about
 name: ABOUT
 title: 
 open_source: Who am I, What I do

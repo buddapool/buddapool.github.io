@@ -1,5 +1,5 @@
 ---
-short_name: sharefixfee
+short_name: 2
 name: Extra Rewards Program
 open_source: Extra Rewards to my Delegators - Must Read
 title: Project

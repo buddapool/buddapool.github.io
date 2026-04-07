@@ -6,5 +6,5 @@ title:
 subheading: 
 permalink: /governance/
 ---
-As an Operator, I voted for some governance actions.
+As an Operator, I voted for some governance actions.<br>
 As a Holder/Staker, I delegated to a DREP.

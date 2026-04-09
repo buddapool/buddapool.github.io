@@ -3,8 +3,7 @@ layout: post
 category: guide
 permalink: /how-to-check-rewards/
 ---
-How to check both normal rewards and extra rewards
+1. How to check normal rewards
+As normally, after some epoch you delegated to a pool, the normal rewards you got from delegating are showed in [Staking center] - [Your summary] - [Total Rewards] in Yoroi wallet which can be withdraw in some simple step.<br>
 
-<a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87" target="_blank">
-<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/thichminhtue.png">
-</a>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/extra-reward.PNG">

@@ -5,6 +5,7 @@ permalink: /how-to-check-rewards/
 ---
 1. How to check normal rewards
 As normally, after some epoch you delegated to a pool, the normal rewards you got from delegating are showed in [Staking center] - [Your summary] - [Total Rewards] in Yoroi wallet which can be withdraw in some simple step.<br>
+<br>
 2. How to check extra rewards
 Extra rewards will be sent each month to top Delegators as described. When you belong to the top list, you will see someone send ADA to your wallet just like a regular transfer.
 Regards.

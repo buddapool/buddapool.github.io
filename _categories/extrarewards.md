@@ -1,7 +1,7 @@
 ---
 short_name: sharefixfee
 name: Extra Rewards Program
-open_source: Extra Rewards to my Delegators - Must Read
+open_source: (Must Read) Extra Rewards to my Delegators
 title: Project
 subheading: This is what I contributed
 permalink: /extra-rewards-program/

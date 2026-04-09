@@ -1,7 +1,7 @@
 ---
 short_name: guide
 name: Guidance
-open_source: How to interact in Cardano Block-chain
+open_source: Help from me for newcomers
 title: 
 subheading: 
 permalink: /guide/

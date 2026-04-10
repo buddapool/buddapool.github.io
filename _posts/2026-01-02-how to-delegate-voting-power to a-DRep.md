@@ -3,8 +3,8 @@ layout: post
 category: guide
 permalink: /how-delegate-to-a-DREP/
 ---
-DREP is like a 'congressperson' of Delegators in the Cardano Block-chain Governance. To vote for some important decisions affect entire block-chain.
-<br>
+DREP is like a 'congressperson' of Delegators in the Cardano Block-chain Governance. To vote for some important decisions affect entire block-chain.<br>
+Please be noted that delegate to a DREP is not like delegate/stake to a pool, it won't earn any rewards or change the pool you've already delegated. Delegate to a DREP is just delegate your voting power to someone to vote for you and your will.<br>
 To delegate for a DREP:<br>
 <p><strong>Step 1: From your main view in Yoroi app, go to {Menu}</strong><br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/drep1.PNG" width="400">

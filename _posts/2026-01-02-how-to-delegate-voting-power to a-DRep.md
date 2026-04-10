@@ -7,6 +7,6 @@ DREP is like a 'congressperson' of Delegators in the Cardano Block-chain Governa
 <br>
 To delegate for a DREP:<br>
 Step 1: From your main view in Yoroi app, go to {Menu}
-<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/drep1.png">
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/drep1.PNG">
 <br>
 

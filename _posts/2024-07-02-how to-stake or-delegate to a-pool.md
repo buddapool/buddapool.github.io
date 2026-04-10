@@ -8,7 +8,6 @@ Prerequisites:
 - Already installed Yoroi app from Appstore (iOS) or Google Play (Android);
 - Already known how to store spending password, recovery phrase and send/receive ADA between wallet and trading platforms such as Binance, Coinbase.
 <br>
-<br>
 Follow this guidance may help you to delegate/stake to a pool.
 <h4>I. How to Stake/Delegate to a pool in Yoroi wallet</h4>
 <p><strong>Step 1. Start Yoroi app</strong><br>
@@ -16,6 +15,21 @@ Follow this guidance may help you to delegate/stake to a pool.
 </p>
 <p><strong>Step 2. Go to {Menu}</strong><br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y2.png" width="400">
+</p>
+<p><strong>Step 3. Go to {Staking center}</strong><br>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y3.png" width="400">
+</p>
+<p><strong>Step 4. Tap {GO TO STAKING CENTER}</strong><br>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y4.png" width="400">
+</p>
+<p><strong>Step 5. Tap Search area, Type "BUDDA" then Tap Search icon</strong><br>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y5.png" width="400">
+</p>
+<p><strong>Step 6. When The [BUDDA] Buddhism, Mediation & Mental Health Pool appears, Tap {DELEGATE}</strong><br>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y6.png" width="400">
+</p>
+<p><strong>Step 7 (Final). Enter your Spending password then Tap {DELEGATE}</strong><br>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y7.png" width="400">
 </p>
 <h4>II. How to Stake/Delegate to a pool in Daedalus wallet</h4>
 

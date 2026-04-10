@@ -10,5 +10,5 @@ To delegate for a DREP:<br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/drep1.PNG" width="600">
 </p>
 <p>Step 2: Go to {Governance centre}<br>
-<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/drep2.png" width="600">
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/drep2.PNG" width="600">
 </p>

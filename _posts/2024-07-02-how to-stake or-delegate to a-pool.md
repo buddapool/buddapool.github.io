@@ -11,6 +11,9 @@ Follow this guidance may help you to delegate/stake to a pool.
 <p><strong>Step 1. Start Yoroi app</strong><br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y1.png" width="400">
 </p>
+<p><strong>Step 2. Go to {Menu}</strong><br>
+<img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y2.png" width="400">
+</p>
 <h4>II. How to Stake/Delegate to a pool in Daedalus wallet</h4>
 
 

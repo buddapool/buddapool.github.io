@@ -11,8 +11,8 @@ layout: default
 <ul>
   {% for category in site.categories %}
        <li>
-         <h3><a href="{{ category.url }}">{{ category.name }}</a></h3>
-         <h5>{{ category.open_source }}</h5>
+         <p><h3><a href="{{ category.url }}">{{ category.name }}</a></h3>
+         <h5>{{ category.open_source }}</h5></p>
          <!--<p>{{ category.content | markdownify }}</p> -->
 		 <!--<p class="category-subtitle">{{ category.excerpt }}</p> -->
        </li>

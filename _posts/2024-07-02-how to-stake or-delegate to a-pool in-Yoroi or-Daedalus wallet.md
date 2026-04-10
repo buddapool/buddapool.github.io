@@ -31,6 +31,7 @@ Follow this guidance may help you to delegate/stake to a pool.
 <p><strong>Step 7 (Final). Enter your Spending password then Tap {DELEGATE}</strong><br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-y7.png" width="400">
 </p>
+<br>
 <h4>II. How to Stake/Delegate to a pool in Daedalus wallet</h4>
 <p><strong>Step 1. Start Daedalus wallet</strong><br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/ht-stake-d1.png" width="400">

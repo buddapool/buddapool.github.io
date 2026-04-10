@@ -5,7 +5,7 @@ permalink: /how-to-find-address/
 ---
 Looking at the top list and don't know who is you? Follow this guidance may help you to find your Stake Address.
 <h4>I. How to find address in Yoroi wallet</h4>
-<p><strong>Step 1. Go to {Receive}</strong>
+<p><strong>Step 1. Go to {Receive}</strong><br>
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/find-address1.png" width="400">
 </p>
 <p><strong>Step 2. Swipe to the next page</strong>

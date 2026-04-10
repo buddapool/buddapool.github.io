@@ -1,7 +1,7 @@
 ---
 layout: post
 category: guide
-permalink: /how-to-stake-to-a-pool in-Yoroi or-Daedalus wallet/
+permalink: /how-to-stake-to-a-pool/
 ---
 Prerequisites:
 - Make sure your device is safe and cleaned. Not jailbreak, root, unlock bootloader or any kind of them;

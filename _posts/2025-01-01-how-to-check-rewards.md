@@ -9,6 +9,6 @@ As normally, after some epoch you delegated to a pool, the normal rewards you go
 <br>
 <br>
 <strong>2. How to check extra rewards</strong><br>
-Extra rewards will be sent each month to top Delegators as <a href="https://buddapool.github.io/extra-rewards-program/" target="_blank">described</a>. When you belong to the top list, you will receive ADA from Operator just like a regular transfer as an example picture here:
+Extra rewards will be sent each month to top Delegators as <a href="https://buddapool.github.io/extra-rewards-program/" target="_blank">described</a>. When you belong to the top list, you will receive ADA from [BUDDA] Operator just like a regular transfer as an example picture here:
 <img src="https://raw.githubusercontent.com/buddapool/buddapool.github.io/refs/heads/main/assets/images/extra-reward.PNG" width="600">
 Regards.

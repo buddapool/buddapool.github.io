@@ -7397,6 +7397,14 @@ textarea.form-control-lg {
   text-decoration: line-through !important;
 }
 
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
 .text-capitalize {
   text-transform: capitalize !important;
 }

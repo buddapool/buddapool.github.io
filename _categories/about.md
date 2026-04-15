@@ -2,7 +2,7 @@
 short_name: about
 name: ABOUT
 title: 
-open_source: Who am I, What I do
+open_source: Who I am, What I do
 subheading: 
 permalink: /about/
 ---

@@ -21,9 +21,9 @@ layout: default
 
 <h2>&nbsp;&nbsp;<br>
 Recent Posts</h2>
+<!-- Divider -->
 <!-- Post preview -->
  {% for post in paginator.posts %}
-  <!-- Divider -->
     <hr class="my-4" />
   <div class="post-preview">
           
@@ -34,9 +34,8 @@ Recent Posts</h2>
 	</h4>
     <p class="post-subtitle">{{ post.excerpt }}</p>
     <!-- <a href="{{ post.url | relative_url  }}">Read More</a> -->
-
   </div>
-
+ <!-- Divider -->
 {% endfor %}
 
 <!-- Pagination links  -->

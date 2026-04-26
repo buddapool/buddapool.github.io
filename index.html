@@ -12,7 +12,7 @@ layout: default
   {% for category in site.categories %}
        <li>
          <p><h3><a href="{{ category.url }}">{{ category.name }}</a></h3>
-         <h5>{{ category.open_source }}</h5></p>
+         {{ category.open_source }}</p>
          <!--<p>{{ category.content | markdownify }}</p> -->
 		 <!--<p class="category-subtitle">{{ category.excerpt }}</p> -->
        </li>

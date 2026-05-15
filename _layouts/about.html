@@ -2,7 +2,6 @@
 <html>
 
   <!-- Head -->
-
   {%- include head.html -%}
 
   <body>
@@ -10,24 +9,35 @@
     <!-- Navigation -->
     {%- include navigation.html -%}
 
-    <!-- Post Header -->
+    <!-- Header -->
     {%- include aboutheader.html -%}
 
-    <main id="main" role="main" class="container">
+    <!-- About page title block -->
+    <div class="about-title-block">
+      <h1>{{ page.name }}</h1>
+      <span class="section-divider"></span>
+      {% if page.open_source %}
+        <p class="about-subtitle">{{ page.open_source }}</p>
+      {% endif %}
+    </div>
+
+    <!-- About page content — wider container -->
+    <main id="main" role="main">
       <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-md-10 col-lg-8 col-xl-7">
-
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-xl-8">
             {{ content }}
-
+            <a href="/" class="back-home-btn mt-4">
+              <i class="fas fa-chevron-left"></i> Back to Home
+            </a>
           </div>
         </div>
-      </div>	
+      </div>
     </main>
+
     <!-- Footer -->
     {%- include footer.html -%}
 
   </body>
-
 </html>
 

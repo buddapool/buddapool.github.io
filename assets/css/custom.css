@@ -10,20 +10,32 @@
   --transition:    0.25s ease;
 }
 
+/* Offset body for fixed navbar */
+body {
+  padding-top: 72px;
+}
+/* Hero masthead overlaps — pull it back up */
+header.masthead {
+  margin-top: -72px;
+}
+
 /* ===================================================
    NAVBAR — dark overlay, always on, uppercase spaced
    =================================================== */
 
 #mainNav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1030;
-  background: rgba(0, 0, 0, 0) !important;
-  border-bottom: none !important;
+  background: rgba(20, 20, 20, 0.88) !important;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.35);
   padding: 0.8rem 0;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, top 0.2s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -81,38 +93,29 @@
   border-color: var(--budda-gold) !important;
 }
 
-/* Sticky / fixed state — dark glass */
-@media (min-width: 992px) {
-  #mainNav {
-    transition: background-color 0.25s ease,
-                box-shadow 0.25s ease;
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  #mainNav.is-fixed {
-    position: fixed;
-    top: -83px;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-  }
-  #mainNav.is-fixed.is-visible,
-  #mainNav.is-visible {
-    transform: translate3d(0, 100%, 0);
-  }
-  #mainNav.is-fixed {
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    background: rgba(20, 20, 20, 0.82) !important;
-    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.35) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
-  }
+/* Desktop navbar: already fixed via base rule */
+
+/* Navbar brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
 }
 
-/* Mobile logo */
 .nav-logo-mobile {
-  height: 36px;
+  height: 32px;
   width: auto;
   filter: brightness(0) invert(1);
+}
+
+.nav-brand-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
 }
 
 /* Mobile: dark slide-down drawer */
@@ -933,22 +936,29 @@ hr.my-4 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  transition: box-shadow 0.4s ease, border-color 0.4s ease, transform 0.4s ease;
 }
 .home-cat-card:hover {
   box-shadow: 0 8px 32px rgba(0,0,0,0.09);
   border-color: var(--budda-primary);
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   color: inherit;
 }
 .home-cat-icon {
   font-size: 1.6rem;
   color: var(--budda-primary);
   margin-bottom: 0.3rem;
-  transition: transform 0.25s ease;
+  transition: opacity 0.4s ease;
+  opacity: 0.85;
+}
+.home-cat-logo-icon {
+  width: 1.9rem;
+  height: 1.9rem;
+  object-fit: contain;
+  display: block;
 }
 .home-cat-card:hover .home-cat-icon {
-  transform: scale(1.15);
+  opacity: 1;
 }
 .home-cat-card h3 {
   font-size: 0.95rem;

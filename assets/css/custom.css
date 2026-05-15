@@ -105,7 +105,6 @@ header.masthead {
 .nav-logo-mobile {
   height: 32px;
   width: auto;
-  filter: brightness(0) invert(1);
 }
 
 .nav-brand-text {
@@ -948,16 +947,19 @@ hr.my-4 {
   font-size: 1.6rem;
   color: var(--budda-primary);
   margin-bottom: 0.3rem;
-  transition: opacity 0.4s ease;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform-origin: left center;
   opacity: 0.85;
 }
-.home-cat-logo-icon {
-  width: 1.9rem;
-  height: 1.9rem;
+.home-cat-logo-icon,
+.home-cat-icon img {
+  width: 2.2rem !important;
+  height: 2.2rem !important;
   object-fit: contain;
   display: block;
 }
 .home-cat-card:hover .home-cat-icon {
+  transform: scale(1.25);
   opacity: 1;
 }
 .home-cat-card h3 {

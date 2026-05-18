@@ -831,6 +831,69 @@ footer .list-inline-item a:hover .fa-stack {
 }
 
 /* ===================================================
+   POST PAGE
+   =================================================== */
+
+/* Hero: just the cover photo, no text overlay */
+.post-masthead {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 320px;
+}
+@media (min-width: 992px) {
+  .post-masthead { min-height: 420px; }
+}
+
+/* Title + meta below the hero */
+.post-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--budda-dark);
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+@media (min-width: 992px) {
+  .post-title { font-size: 2.6rem; }
+}
+.post-meta-below {
+  color: var(--budda-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+  font-family: "Lora", serif;
+  margin-bottom: 0;
+}
+.post-meta-below a {
+  color: var(--budda-primary);
+  text-decoration: none;
+}
+.post-meta-below a:hover { text-decoration: underline; }
+.post-divider {
+  border: none;
+  border-top: 2px solid #e9ecef;
+  margin: 1.2rem 0 1.8rem;
+}
+
+/* Post body */
+.post-body {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-family: "Lora", serif;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #333;
+}
+.post-body p { margin-bottom: 1.4rem; }
+.post-img {
+  display: block;
+  max-width: 100%;
+  width: 420px;
+  border-radius: 10px;
+  margin: 1.5rem auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+/* ===================================================
    MOBILE HEADER — account for fixed navbar
    =================================================== */
 

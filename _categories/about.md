@@ -88,7 +88,7 @@ layout: about
     I&rsquo;m a Vietnamese entrepreneur, born into a Confucian family. After struggling with generalized anxiety and depression, I discovered Theravada Buddhism. Through meditation and the Buddha&rsquo;s teachings I found clarity, calm, and a path to better mental health.
   </p>
   <p>
-    In September 2022 I launched this pool as a Single Stake Pool Operator (SSPO), contributing to the stability and decentralization of Cardano. All operator rewards flow back into Buddhist activities &mdash; supporting temples, feeding those in need, printing Dhamma books, and teaching meditation.
+    In September 2022, I launched this pool as a Single Stake Pool Operator (SSPO), contributing to the stability and decentralization of Cardano. All operator rewards flow back into Buddhist activities &mdash; supporting temples, feeding those in need, printing Dhamma books, and teaching meditation.
   </p>
   <blockquote class="about-quote">
     &ldquo;When the mind is at peace, everything is at peace.&rdquo;

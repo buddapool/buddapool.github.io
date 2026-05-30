@@ -472,80 +472,145 @@ header.masthead {
    PAGINATION
    =================================================== */
 
-.pagination-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-  flex-wrap: wrap;
+/* Pagination wrapper: nav left, jump right */
+.pagination-wrapper {
   margin: 1.75rem 0 2.5rem;
 }
 
-.pagination-nav a,
-.pagination-nav span {
+.pagination-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Base button */
+.page-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 38px;
+  min-width: 36px;
   height: 38px;
   padding: 0 0.5rem;
   border-radius: 8px;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
   text-decoration: none;
-  transition: background-color var(--transition),
-              color var(--transition),
-              border-color var(--transition),
-              transform 0.15s ease;
-  border: 1.5px solid #dee2e6;
-  color: #495057;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  border: 1.5px solid #e0e0e0;
+  color: #333;
   background: #fff;
+  cursor: pointer;
   line-height: 1;
+  white-space: nowrap;
+}
+.page-btn:hover {
+  background: #f0f0f0;
+  border-color: #ccc;
+  color: #111;
 }
 
-.pagination-nav a:hover {
-  background-color: var(--budda-primary);
-  border-color: var(--budda-primary);
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 133, 161, 0.25);
-}
-
-/* Current page */
-.pagination-nav .page-current {
-  background-color: var(--budda-primary);
-  border-color: var(--budda-primary);
+/* Active page */
+.page-btn.page-current {
+  background: var(--budda-dark);
+  border-color: var(--budda-dark);
   color: #fff;
   cursor: default;
-  box-shadow: 0 4px 12px rgba(0, 133, 161, 0.25);
+}
+.page-btn.page-current:hover {
+  background: var(--budda-dark);
+  color: #fff;
 }
 
-/* Disabled prev/next */
-.pagination-nav .page-disabled {
-  opacity: 0.38;
-  cursor: not-allowed;
+/* Disabled Back/Next */
+.page-btn.page-disabled {
+  color: #bbb;
+  background: #fafafa;
+  cursor: default;
   pointer-events: none;
 }
 
-/* Wider prev/next labels */
-.pagination-nav .page-arrow {
-  min-width: 80px;
+/* Ellipsis */
+.page-btn.page-ellipsis {
+  border: none;
+  background: none;
+  color: #999;
+  min-width: 28px;
+  cursor: default;
+  pointer-events: none;
+  letter-spacing: 0.1em;
 }
 
-@media (max-width: 480px) {
-  .pagination-nav .page-arrow {
-    min-width: 52px;
-    font-size: 0.7rem;
-    padding: 0 0.35rem;
-  }
-  .pagination-nav a,
-  .pagination-nav span {
-    min-width: 32px;
-    height: 32px;
-    border-radius: 6px;
-  }
+/* Back/Next wider */
+.page-btn.page-arrow {
+  min-width: 60px;
+}
+
+/* Inline separator between Next and Page jump */
+.page-sep {
+  color: #ccc;
+  font-size: 1rem;
+  padding: 0 0.2rem;
+  user-select: none;
+}
+
+/* Jump: Page [__] Go — inline inside nav */
+.page-jump-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.page-jump-label {
+  font-size: 0.82rem;
+  color: #555;
+  font-weight: 600;
+}
+.page-jump-input {
+  width: 2.4rem;
+  height: 38px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f5f5f5;
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #333;
+  outline: none;
+  -moz-appearance: textfield;
+}
+.page-jump-input:focus {
+  border-color: var(--budda-primary);
+  background: #fff;
+}
+.page-jump-input::-webkit-inner-spin-button,
+.page-jump-input::-webkit-outer-spin-button { -webkit-appearance: none; }
+.page-jump-go {
+  height: 38px;
+  padding: 0 0.7rem;
+  border-radius: 8px;
+  border: 1.5px solid #e0e0e0;
+  background: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.page-jump-go:hover {
+  background: var(--budda-primary);
+  border-color: var(--budda-primary);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .pagination-wrapper { gap: 0.4rem; }
+  .page-btn { min-width: 30px; height: 32px; font-size: 0.72rem; padding: 0 0.3rem; }
+  .page-btn.page-arrow { min-width: 48px; }
+  .page-jump-input { height: 32px; width: 2rem; }
+  .page-jump-go { height: 32px; padding: 0 0.5rem; font-size: 0.72rem; }
 }
 
 /* ===================================================

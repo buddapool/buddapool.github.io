@@ -91,6 +91,6 @@ layout: about
     In September 2022, I launched this pool as a Single Stake Pool Operator (SSPO), contributing to the stability and decentralization of Cardano. All operator rewards flow back into Buddhist activities &mdash; supporting temples, feeding those in need, printing Dhamma books, and teaching meditation.
   </p>
   <blockquote class="about-quote">
-    &ldquo;When the mind is stable, everything is at peace.&rdquo;
+    &ldquo;When the mind is calm, everything is at peace.&rdquo;
   </blockquote>
 </section>

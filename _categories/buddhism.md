@@ -8,5 +8,5 @@ permalink: /buddhism/
 ---
 
   <blockquote class="about-quote">
-    &ldquo;A troubled mind is a turbulent river, distorting everything it touches. A calm mind is a mirrored lake. When the winds of worry cease, the illusion dissolves, and the true nature of reality is revealed.&rdquo;
+    &ldquo;The human mind is like a lake. When the water is calm and clear, we can see the moon, stars, and scenery clearly. Similarly, when the mind is calm, undisturbed by the waves of thoughts or worries, we can see the true nature of reality is revealed.&rdquo;
   </blockquote>

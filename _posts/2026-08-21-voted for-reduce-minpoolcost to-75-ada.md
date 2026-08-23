@@ -1,6 +1,7 @@
 ---
 layout: post
 category: governance
+title: "Voted for Reduce minPoolCost to 75 ADA"
 permalink: /voted-for-reduce-minpoolcost to-75-ada/
 ---
 As a Stake Pool Operator, I voted YES for the governance action that would reduce minPoolCost from 170 to 75 ADA to support small pools.

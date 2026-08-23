@@ -1,6 +1,7 @@
 ---
 layout: post
 category: sharefixfee
+title: "Share Fix-fee of July 2026"
 permalink: /Share-fix-fee-of-July-2026/
 ---
 

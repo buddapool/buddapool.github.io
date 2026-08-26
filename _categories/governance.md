@@ -59,7 +59,7 @@ layout: about
     <div class="gov-item">
       <div class="gov-meta">
         <span class="gov-date">Aug 2026</span>
-        <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
+        <span class="gov-badge gov-no"><i class="fas fa-check"></i> NOOO</span>
       </div>
       <div class="gov-body">
         <h3><a href="/voted-for-reduce-minpoolcost to-75-ada/">Reduce minPoolCost to 75 ADA</a></h3>

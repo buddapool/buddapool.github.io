@@ -25,7 +25,7 @@ layout: about
 
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Aug 2026</span>
+        <span class="gov-date">22 Aug 2026</span>
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">
@@ -36,7 +36,7 @@ layout: about
 
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Mar 2026</span>
+        <span class="gov-date">27 Mar 2026</span>
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">
@@ -48,7 +48,7 @@ layout: about
 
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Mar 2026</span>
+        <span class="gov-date">27 Mar 2026</span>
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">

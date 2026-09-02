@@ -28,7 +28,7 @@ layout: about
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">
-        <h3><a href="/voted-to-update-constitutional-committee-2026/">renew members of CC</a></h3>
+        <h3><a href="/voted-to-update-constitutional-committee-2026/">Renew members of CC</a></h3>
         <p>Voted to add incoming members of CC included Leandros H [BSP] to replace retired member since Epoch 653.</p>
       </div>
     </div>

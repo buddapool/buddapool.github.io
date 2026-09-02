@@ -60,7 +60,7 @@ layout: about
 
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Dec 2025</span>
+        <span class="gov-date">15 Dec 2025</span>
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">

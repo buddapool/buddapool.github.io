@@ -79,7 +79,7 @@ layout: about
 
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Mar 2026</span>
+        <span class="gov-date">30 Mar 2026</span>
         <span class="gov-badge gov-drep"><i class="fas fa-user-check"></i> DELEGATED</span>
       </div>
       <div class="gov-body">

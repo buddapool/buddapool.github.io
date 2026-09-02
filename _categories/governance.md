@@ -22,25 +22,15 @@ layout: about
   <h2 class="about-section-title">Voting Record &mdash; as Operator (SPO)</h2>
   <div class="gov-timeline">
 
-    <div class="gov-item">
-      <div class="gov-meta">
-        <span class="gov-date">Dec 2025</span>
-        <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
-      </div>
-      <div class="gov-body">
-        <h3><a href="/voted-for-add-constitutional-committee/">Add Constitutional Committee</a></h3>
-        <p>Voted in favour of establishing the Constitutional Committee, a key step in Cardano&rsquo;s decentralised governance model.</p>
-      </div>
-    </div>
 
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Mar 2026</span>
+        <span class="gov-date">Aug 2026</span>
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">
-        <h3><a href="/voted-for-budget-process-framework/">Budget Process Framework</a></h3>
-        <p>Supported establishing a transparent budget process for the Cardano treasury, giving the community control over on-chain funding.</p>
+        <h3><a href="/voted-for-reduce-minpoolcost to-75-ada/">Reduce minPoolCost to 75 ADA</a></h3>
+        <p>Voted to reduce minPoolCost from 170 to 75 ADA to support small pools.</p>
       </div>
     </div>
 
@@ -55,15 +45,27 @@ layout: about
       </div>
     </div>
 
-    
+
     <div class="gov-item">
       <div class="gov-meta">
-        <span class="gov-date">Aug 2026</span>
+        <span class="gov-date">Mar 2026</span>
         <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
       </div>
       <div class="gov-body">
-        <h3><a href="/voted-for-reduce-minpoolcost to-75-ada/">Reduce minPoolCost to 75 ADA</a></h3>
-        <p>Voted to reduce minPoolCost from 170 to 75 ADA to support small pools.</p>
+        <h3><a href="/voted-for-budget-process-framework/">Budget Process Framework</a></h3>
+        <p>Supported establishing a transparent budget process for the Cardano treasury, giving the community control over on-chain funding.</p>
+      </div>
+    </div>
+
+
+    <div class="gov-item">
+      <div class="gov-meta">
+        <span class="gov-date">Dec 2025</span>
+        <span class="gov-badge gov-yes"><i class="fas fa-check"></i> YES</span>
+      </div>
+      <div class="gov-body">
+        <h3><a href="/voted-for-add-constitutional-committee/">Add Constitutional Committee</a></h3>
+        <p>Voted in favour of establishing the Constitutional Committee, a key step in Cardano&rsquo;s decentralised governance model.</p>
       </div>
     </div>
 

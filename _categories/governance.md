@@ -94,7 +94,7 @@ layout: about
       </div>
       <div class="gov-body">
         <h3><a href="/how%20to-delegate-to-peter-bui/">Delegated to DRep Peter Bui</a></h3>
-        <p>Delegated my ADA holder voting power to Peter Bui, a trusted and active DRep in the Cardano governance ecosystem.</p>
+        <p>Delegated my ADA holder voting power to Dave, whom I believe is a trusted and active DRep in the Cardano governance ecosystem.</p>
       </div>
     </div>
 

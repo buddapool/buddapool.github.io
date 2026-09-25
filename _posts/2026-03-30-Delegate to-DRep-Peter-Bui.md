@@ -1,9 +1,9 @@
 ---
 layout: post
 category: governance
-title: "Delegate to DREP Peter Bui"
-permalink: /how to-delegate-to-peter-bui/
+title: "Delegate to DREP Dave"
+permalink: /delegate-to-Dave/
 ---
-As a Staker/Holder, I delegated my voting power to <a href="https://cexplorer.io/drep/drep1yftc8zs7gjcj4a9nxzplz4wg6cwweya0kxp8adnw59vsyrqvrysud" target="_blank">Peter Bui </a>(drep1yftc8zs7gjcj4a9nxzplz4wg6cwweya0kxp8adnw59vsyrqvrysud). <br>
+As a Staker/Holder, I delegated my voting power to <a href="https://cexplorer.io/drep/drep1ygsgfhcydhlfglamhzkjn97rz3edef8a4z99fwl2frcwnrcmgurt3" target="_blank">Dave </a>(drep1ygsgfhcydhlfglamhzkjn97rz3edef8a4z99fwl2frcwnrcmgurt3). <br>
 This DRep may represent Holders and Single Pool Operators.<br>
 Regards.
